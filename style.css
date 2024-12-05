@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #D3D3D3;
+  color: #333;
+}
+
+.header {
+  background-color:  #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.site-title {
+  font-size: 1.7em;
+  margin-top: 10px;
+}
+
+.slogan {
+  font-size: 0.7em;
+  margin-top: 5px;
+}
+
+.categories {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.category-btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: #3e5584;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px;
+}
+
+.menu-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.menu-item .details {
+  padding: 15px;
+}
+
+.menu-item .details h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.menu-item .details p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.menu-item .details .price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.social-icon:hover {
+  text-decoration: underline;
+}
